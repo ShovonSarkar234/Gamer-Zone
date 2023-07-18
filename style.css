@@ -195,3 +195,71 @@ p {
     font-weight: 700;
 }
 /* gamer-section-end */
+
+/* online-game-section-start  */
+.img-container img,p{
+    width: 14.75rem;
+}
+
+.text-section {
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.img-1 {
+    position: relative;
+}
+
+.img-1 img:hover {
+    border: 4px solid #FF42A5;
+    border-radius: 15px;
+}
+
+.overlay {
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateY(40%);
+    opacity: 0;
+    text-align: center;
+    font-size: 2rem;
+    transition: .3s ease;
+}
+
+.overlay p {
+    font-size: 1rem;
+    color: red;
+}
+
+.img-1:hover .overlay {
+    opacity: 1;
+}
+
+.text-section span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-section h1,span {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.text-game {
+    color: #534C64;
+}
+/* online-game-section-end  */
+
+
+
+
+
