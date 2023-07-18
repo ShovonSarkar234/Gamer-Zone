@@ -259,7 +259,48 @@ p {
 }
 /* online-game-section-end  */
 
+/* anniversary-section-start */
+.anniversary {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: space-evenly;
+}
 
+.image-1 {
+    width: 450px;
+    position: relative;
+}
+
+.image-2 {
+    width: 200px;
+    position: absolute;
+    right: 400px;
+    margin-top: 300px;
+    margin-right: 100px;
+}
+
+
+.anniversary-text h1 {
+    width: 280px;
+    text-align: right;
+    margin-right: 200px;
+}
+
+.anniversary-text span {
+    color: #F948B2;
+}
+
+.anniversary-text p {
+    color: #534C64;
+    text-align: right;
+    margin-left: 35px;
+    margin-top: 1rem;
+    font-size: .65rem;
+}
+/* anniversary-section-end */
 
 
 
