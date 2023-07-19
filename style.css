@@ -125,12 +125,13 @@ p {
     top: -5px;
 }
 .btn-2 {
-    padding: 20px 35px;
+    padding: 20px 45px;
     background-color: #F948B2;
     border: none;
-    border-radius: 15px;
+    border-radius: 35px;
     color: #fff;
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 .btn-3 {
@@ -139,6 +140,7 @@ p {
     border: none;
     border-radius: 35px;
     color: #fff;
+    cursor: pointer;
 }
 
 .banner-section {
@@ -146,6 +148,16 @@ p {
     background-position: top left;
     background-size: 50%;
     background-repeat: no-repeat;
+}
+
+#play {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#play-2 {
+    font-size: 20px;
+    margin-right: 5px;
 }
 /* banner-section-end */
 
@@ -302,5 +314,99 @@ p {
 }
 /* anniversary-section-end */
 
+/* online-game-start */
+.img-text {
+    font-size: 15px;
+}
 
+.img-name img {
+    width: 25px;
+}
 
+.all-games {
+    height: 40vh;
+}
+
+.game {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.img-name {
+    padding: 5px;
+    border-radius: 18px;
+}
+
+.img-name:hover {
+    border: 2px solid #F948B2;
+    color: #F948B2;
+}
+
+/* online-game-end */
+
+.logo-sec img {
+    width: 3rem;
+    margin-right: .50rem;
+}
+
+.footer-section span  {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+.color {
+    color: #F948B2 !important;
+}
+
+.menu > ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.icon-section {
+    text-align: center;
+    margin-top: 5px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.icon-section i {
+    padding: 1rem;
+    color: #fff;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #0B0223;
+    padding: 40px;
+}
+
+.policy-section > ul {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
